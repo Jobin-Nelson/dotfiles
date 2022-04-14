@@ -1,5 +1,6 @@
 syntax on 
 set noerrorbells visualbell t_vb=
+set noswapfile
 set mouse=a
 set clipboard=unnamed
 set nocompatible
@@ -11,7 +12,7 @@ set splitbelow splitright
 set number relativenumber
 set tabstop=4 softtabstop=4
 set shiftwidth=4
-set formatoptions-=cro
+set formatoptions-=c formatoptions-=r formatoptions-=o
 set smartindent
 set nowrap
 set path+=**
@@ -22,6 +23,6 @@ set nohlsearch
 let mapleader=" "
 
 nnoremap <leader>so :source $HOME/.vimrc<CR>
-nnoremap <f5> <esc>:w<CR>:!python %<CR>
-nnoremap <f6> <esc>:w<CR>:!node %<CR>
+autocmd filetype python nnoremap <F5> :w <bar> !python %<CR>
+autocmd filetype javascript nnoremap <F5> :w <bar> !node %<CR>
 map Q <Nop>
