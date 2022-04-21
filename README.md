@@ -13,6 +13,8 @@
 - `scoop install neovim`
 
 ### Make Symlinks and Install PS Modules
-Run Powershell as administrator
-- `cd ~\dotfiles`
-- `.\make_life_easy.ps1`
+- Run Windows Powershell as admin
+	- `cd ~\dotfiles`
+	- `.create_symlinks.ps1`
+- Run the script on Powershell (7.x)
+	- `install_pwsh_modules.ps1`
