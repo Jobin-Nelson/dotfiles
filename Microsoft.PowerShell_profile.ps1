@@ -1,6 +1,5 @@
 # Alias
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
-Set-Alias grep Select-String
 
 # Load prompt
 oh-my-posh --init --shell pwsh --config ~/dotfiles/.my_jandedobbeleer.omp.json | Invoke-Expression

@@ -12,7 +12,7 @@
             "style": "folder"
           },
           "style": "diamond",
-          "template": " \ue5ff {{ .Path }} ",
+          "template": " {{ .Path }} ",
           "trailing_diamond": "\ue0b0",
           "type": "path"
         },
@@ -25,7 +25,7 @@
             "{{ if gt .Behind 0 }}#B388FF{{ end }}"
           ],
           "foreground": "#193549",
-          "powerline_symbol": "",
+          "powerline_symbol": "\ue0b0",
           "properties": {
             "branch_max_length": 25,
             "fetch_stash_count": true,
@@ -48,14 +48,19 @@
           "style": "powerline",
           "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
           "type": "python"
-        },
+        }
+     ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
         {
-          "background": "#ffc107",
-          "foreground": "#18354c",
-          "powerline_symbol": "\ue0b0",
-          "style": "powerline",
-          "template": " \uf0e7 ",
-          "type": "root"
+          "foreground": "lightGreen",
+          "style": "plain",
+          "template": "\u276f",
+          "type": "text"
         }
       ],
       "type": "prompt"
