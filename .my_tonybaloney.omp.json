@@ -12,7 +12,7 @@
             "style": "folder"
           },
           "style": "diamond",
-          "template": " {{ .Path }} ",
+          "template": " \uf74a {{ .Path }} ",
           "trailing_diamond": "\ue0b0",
           "type": "path"
         },
@@ -37,13 +37,13 @@
           "type": "git"
         },
         {
-          "background": "#ffc107",
-          "foreground": "#18354c",
+          "background": "#FFDE57",
+          "foreground": "#111111",
           "powerline_symbol": "\ue0b0",
           "properties": {
-              "display_mode": "context",
-              "display_version": true,
-              "display_virtual_env": false
+            "display_mode": "context",
+            "fetch_version": true,
+            "fetch_virtual_env": false
           },
           "style": "powerline",
           "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",

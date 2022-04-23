@@ -14,7 +14,7 @@
             "style": "folder"
           },
           "style": "diamond",
-          "template": " {{ .Path }} ",
+          "template": " \uf74a {{ .Path }} ",
           "trailing_diamond": "\ue0b0",
           "type": "path"
         },
