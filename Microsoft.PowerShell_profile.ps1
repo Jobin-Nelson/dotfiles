@@ -9,6 +9,7 @@ Import-Module -Name Terminal-Icons
 
 # PSReadLine
 Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -EditMode "vi"
 
 
 # Utilities
