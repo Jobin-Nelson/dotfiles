@@ -6,7 +6,6 @@
 - `winget install -e --id Microsoft.PowerShell`
 - `winget install -e --id Microsoft.WindowsTerminal`
 - `winget install -e --id Microsoft.VisualStudioCode`
-- `winget install -e --id Python.Python.3`
 
 ### Scoop installs
 - `Invoke-WebRequest -useb get.scoop.sh | Invoke-Expression`
