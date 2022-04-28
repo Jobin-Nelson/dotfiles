@@ -1,8 +1,10 @@
 # DotFiles
 
 ## Setup environment
+
+- install git with gitbash
+
 ### Winget installs
-- `winget install -e --id Git.Git`
 - `winget install -e --id Microsoft.PowerShell`
 - `winget install -e --id Microsoft.WindowsTerminal`
 - `winget install -e --id Microsoft.VisualStudioCode`

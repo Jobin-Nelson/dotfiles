@@ -44,7 +44,7 @@
             "cursorShape": "bar",
             "font": 
             {
-                "face": "JetBrainsMono NF",
+                "face": "Cascadia Code",
                 "size": 11
             },
             "opacity": 65,
@@ -58,7 +58,7 @@
                 "name": "Windows PowerShell"
             },
             {
-                "colorScheme": "One Half Dark (modded)",
+                "colorScheme": "Campbell",
                 "cursorShape": "underscore",
                 "experimental.retroTerminalEffect": false,
                 "font": 
@@ -81,7 +81,7 @@
             {
                 "antialiasingMode": "grayscale",
                 "bellStyle": "none",
-                "colorScheme": "One Half Dark (modded)",
+                "colorScheme": "Campbell",
                 "font": 
                 {
                     "face": "JetBrainsMono NF",
