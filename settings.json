@@ -32,7 +32,8 @@
     "alwaysShowTabs": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+    "disableAnimations": true,
     "experimental.rendering.forceFullRepaint": true,
     "launchMode": "default",
     "profiles": 
@@ -58,7 +59,7 @@
                 "name": "Windows PowerShell"
             },
             {
-                "colorScheme": "Campbell",
+                "colorScheme": "One Half Dark (modded)",
                 "cursorShape": "underscore",
                 "experimental.retroTerminalEffect": false,
                 "font": 
@@ -69,7 +70,7 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "opacity": 65,
+                "opacity": 60,
                 "source": "Windows.Terminal.PowershellCore",
                 "useAcrylic": false
             },
@@ -81,7 +82,7 @@
             {
                 "antialiasingMode": "grayscale",
                 "bellStyle": "none",
-                "colorScheme": "Campbell",
+                "colorScheme": "Tango Dark",
                 "font": 
                 {
                     "face": "JetBrainsMono NF",
@@ -91,7 +92,7 @@
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
-                "opacity": 70,
+                "opacity": 60,
                 "source": "Git",
                 "useAcrylic": false
             },
@@ -277,7 +278,7 @@
             "brightPurple": "#AD7FA8",
             "brightRed": "#EF2929",
             "brightWhite": "#EEEEEC",
-            "brightYellow": "#FCE94F",
+            "brightYellow": "#F9F1A5",
             "cursorColor": "#FFFFFF",
             "cyan": "#37FFB5",
             "foreground": "#FAFFF6",
