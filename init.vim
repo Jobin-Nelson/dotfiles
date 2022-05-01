@@ -27,8 +27,8 @@ nnoremap <leader>rdq mmF"xf"x`m
 nnoremap <leader>rsq mmF'xf'x`m
 nnoremap <leader>ssq mmbi'<Esc>ea'<Esc>`m
 nnoremap <leader>sdq mmbi"<Esc>ea"<Esc>`m
-vnoremap <leader>/ :g/^[^#]/exec "normal I#"<CR>
-vnoremap <leader>r/ :g/^#\w/exec "normal ^x"<CR>
+vnoremap <leader>/ :norm I#<CR>
+vnoremap <leader>r/ :g/^\s*#/exe "normal ^x"<CR>
 
 autocmd filetype python nnoremap <F5> :w <bar> !python %<CR>
 autocmd filetype javascript nnoremap <F5> :w <bar> !node %<CR>
