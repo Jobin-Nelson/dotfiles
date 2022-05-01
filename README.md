@@ -11,7 +11,9 @@
 
 ### Scoop installs
 - `Invoke-WebRequest -useb get.scoop.sh | Invoke-Expression`
+- `scoop bucket add versions`
 - `scoop install neovim`
+	- Install Visual Studio 2015 C++ if you are missing VCRUNTIME 140.dll
 
 ### Make Symlinks and Install PS Modules
 - Run Windows Powershell as admin
