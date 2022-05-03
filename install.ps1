@@ -25,6 +25,8 @@ Write-Host "Creating Symlink $HOME\.bash_profile"
 New-Item -Type SymbolicLink -Path "$HOME\.bash_profile" -Target "$HOME\dotfiles\.bash_profile" -Force
 Write-Host "Creating Symlink $HOME\.bashrc"
 New-Item -ItemType SymbolicLink -Path "$HOME\.bashrc" -Target "$HOME\dotfiles\.bashrc" -Force
+Write-Host "Creating Symlink $HOME\.gitconfig"
+New-Item -Type SymbolicLink -Path "$HOME\.gitconfig" -Target "$HOME\dotfiles\.gitconfig" -Force
 Write-Host "...done`n"
 
 # Setting up Python Environment
