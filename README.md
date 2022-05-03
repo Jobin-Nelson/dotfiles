@@ -2,22 +2,25 @@
 
 ## Setup environment
 
-- install git with gitbash
-
-### Winget installs
-- `winget install -e --id Microsoft.PowerShell`
-- `winget install -e --id Microsoft.WindowsTerminal`
-- `winget install -e --id Microsoft.VisualStudioCode`
+- install winget if not installed
+	- https://github.com/microsoft/winget-cli
+	- download the msixbundle
 
 ### Scoop installs
-- `Invoke-WebRequest -useb get.scoop.sh | Invoke-Expression`
+- `Invoke-WebRequest get.scoop.sh | Invoke-Expression`
 - `scoop bucket add versions`
-- `scoop install neovim`
+- `scoop install neovim-nightly jq`
 	- Install Visual Studio 2015 C++ if you are missing VCRUNTIME 140.dll
 
-### Make Symlinks and Install PS Modules
-- Run Windows Powershell as admin
+### Run Installation Script
+- Run Powershell as admin
+	- `Set-ExecutionPolicy RemoteSigned`
 	- `cd ~\dotfiles`
-	- `.create_symlinks.ps1`
-- Run the script on Powershell (7.x)
-	- `install_pwsh_modules.ps1`
+	- `install.ps1`
+
+### Install Nerd Fonts
+- https://www.nerdfonts.com/font-downloads
+
+### Setup Python Environment
+- `pyenv update`
+	- `https://k0nze.dev/posts/install-pyenv-venv-vscode/`
