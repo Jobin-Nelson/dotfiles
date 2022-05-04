@@ -36,11 +36,11 @@ Invoke-WebRequest -Uri "https://github.com/pyenv-win/pyenv-win/archive/refs/head
 Write-Host "Creating directory $HOME\.pyenv"
 New-Item -Type Directory -Path "$HOME\.pyenv"
 Write-Host "Extracting file"
-Expand-Archive -LiteralPath "$HOME\Downloads\pyenv-win-master.zip" -DestinationPath "$HOME\Downloads\"
+Expand-Archive -Path "$HOME\Downloads\pyenv-win-master.zip" -DestinationPath "$HOME\Downloads\"
 Write-Host "Copying files"
 Copy-Item -Path "$HOME\Downloads\pyenv-win-master\pyenv-win" -Destination "$HOME\.pyenv\pyenv-win" -Recurse
-Copy-Item -LiteralPath "$HOME\Downloads\pyenv-win-master\.version" -Destination "$HOME\.pyenv\"
-Write-Host "Adding Environment Path"
+Copy-Item -Path "$HOME\Downloads\pyenv-win-master\.version" -Destination "$HOME\.pyenv\"
+Write-Host "Adding to Environment Path"
 [System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
 [System.Environment]::SetEnvironmentVariable('PYENV_HOME',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
 [System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv\pyenv-win\bin;" + $env:USERPROFILE + "\.pyenv\pyenv-win\shims;" + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
