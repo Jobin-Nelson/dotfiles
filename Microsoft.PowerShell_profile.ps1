@@ -6,6 +6,7 @@ Import-Module -Name Terminal-Icons
 
 # Alias
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
+Set-Alias vlc 'C:\Program Files\VideoLAN\VLC\vlc.exe'
 
 # PSReadLine
 Set-PSReadLineOption -PredictionSource History

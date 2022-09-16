@@ -16,7 +16,7 @@ Write-Host "...done`n"
 # Creating Symbolic links
 Write-Host "Creating Symlink for config files"
 Write-Host "Creating Symlink $env:LOCALAPPDATA\nvim\init.vim"
-New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim\init.vim" -Target "$HOME\dotfiles\init.vim" -Force 
+New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim\init.lua" -Target "$HOME\dotfiles\init.lua" -Force 
 Write-Host "Creating Symlink $PROFILE"
 New-Item -ItemType SymbolicLink -Path "$PROFILE" -Target "$HOME\dotfiles\Microsoft.PowerShell_profile.ps1" -Force
 Write-Host "Creating Symlink $env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
@@ -44,5 +44,5 @@ Write-Host "Adding to Environment Path"
 [System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
 [System.Environment]::SetEnvironmentVariable('PYENV_HOME',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
 [System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv\pyenv-win\bin;" + $env:USERPROFILE + "\.pyenv\pyenv-win\shims;" + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
-Write-Host "...done`n"
+Write-Host "...done\n"
 

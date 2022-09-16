@@ -9,12 +9,6 @@
 	- https://github.com/microsoft/winget-cli
 	- download the msixbundle
 
-## Scoop installs
-- `Invoke-WebRequest get.scoop.sh | Invoke-Expression`
-- `scoop bucket add versions`
-- `scoop install neovim-nightly jq`
-	- Install Visual Studio 2015 C++ if you are missing VCRUNTIME 140.dll
-
 ## Install Nerd Fonts
 - https://www.nerdfonts.com/font-downloads
 
