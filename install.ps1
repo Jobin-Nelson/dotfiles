@@ -15,7 +15,7 @@ Write-Host "...done`n"
 
 # Creating Symbolic links
 Write-Host "Creating Symlink for config files"
-Write-Host "Creating Symlink $env:LOCALAPPDATA\nvim\init.vim"
+Write-Host "Creating Symlink $env:LOCALAPPDATA\nvim\init.lua"
 New-Item -ItemType SymbolicLink -Path "$env:LOCALAPPDATA\nvim\init.lua" -Target "$HOME\dotfiles\init.lua" -Force 
 Write-Host "Creating Symlink $PROFILE"
 New-Item -ItemType SymbolicLink -Path "$PROFILE" -Target "$HOME\dotfiles\Microsoft.PowerShell_profile.ps1" -Force
