@@ -6,9 +6,9 @@ Write-Host "...done`n"
 # Installing PSModules
 Write-Host "Installing PowerShell Modules..."
 Write-Host "Installing PSReadLine..."
-Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+Install-Module -Name PSReadLine -Repository PSGallery
 Write-Host "Installing Terminal-Icons..."
-Install-Module -Name Terminal-Icons -Scope CurrentUser -Repository PSGallery -Force 
+Install-Module -Name Terminal-Icons -Repository PSGallery
 Write-Host "Installing z..."
 Install-Module -Name z -Force -Scope CurrentUser
 Write-Host "...done`n"
