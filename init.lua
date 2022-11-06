@@ -28,7 +28,7 @@ vim.opt.signcolumn = 'yes'
 -- Keymaps
 vim.keymap.set({'n', 'v'}, '<Space>', '<Nop>', {silent = true})
 vim.g.mapleader = ' '
-vim.keymap.set('n', '<leader>i', '<cmd>edit ~/.config/nvim/init.lua<CR>')
+vim.keymap.set('n', '<leader>i', '<cmd>edit ~\\AppData\\local\\nvim\\init.lua<CR>')
 vim.keymap.set('n', '<leader>e', '<cmd>Lexplore 20<CR>')
 vim.keymap.set('n', '<C-Up>', '<cmd>resize +3<CR>')
 vim.keymap.set('n', '<C-Down>', '<cmd>resize -3<CR>')
@@ -86,6 +86,7 @@ require('packer').startup(function(use)
     use 'numToStr/Comment.nvim'
     use 'windwp/nvim-autopairs'
     use 'tpope/vim-surround'
+    use 'dhruvasagar/vim-table-mode'
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
@@ -98,7 +99,7 @@ end)
 require("nvim-lsp-installer").setup {}
 
 -- Lsp config.
-local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 local servers = { 
     'pyright', 
 }
