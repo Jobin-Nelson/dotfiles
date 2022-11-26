@@ -4,20 +4,7 @@
     "actions": 
     [
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": "find"
         },
         {
             "command": 
@@ -27,6 +14,10 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+f"
         }
     ],
     "copyFormatting": "none",
@@ -61,11 +52,12 @@
             },
             {
                 "bellStyle": "none",
-                "colorScheme": "Dracula",
+                "colorScheme": "GruvboxDark",
                 "cursorShape": "filledBox",
+                "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "JetBrainsMono NF",
+                    "face": "Hack NF",
                     "size": 11,
                     "weight": "medium"
                 },
@@ -181,6 +173,29 @@
             "selectionBackground": "#44475A",
             "white": "#F8F8F2",
             "yellow": "#F1FA8C"
+        },
+        {
+            "background": "#282828",
+            "black": "#282828",
+            "blue": "#458588",
+            "brightBlack": "#928374",
+            "brightBlue": "#458588",
+            "brightCyan": "#689D6A",
+            "brightGreen": "#98971A",
+            "brightPurple": "#B16286",
+            "brightRed": "#CC241D",
+            "brightWhite": "#EBDBB2",
+            "brightYellow": "#D79921",
+            "cursorColor": "#EBDBB2",
+            "cyan": "#689D6A",
+            "foreground": "#EBDBB2",
+            "green": "#98971A",
+            "name": "GruvboxDark",
+            "purple": "#B16286",
+            "red": "#CC241D",
+            "selectionBackground": "#665C54",
+            "white": "#EBDBB2",
+            "yellow": "#D79921"
         },
         {
             "background": "#282C34",

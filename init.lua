@@ -24,6 +24,7 @@ vim.opt.hidden = true
 vim.opt.swapfile = false
 vim.opt.undofile = true
 vim.opt.signcolumn = 'yes'
+vim.opt.termguicolors = true
 
 -- Keymaps
 vim.keymap.set({'n', 'v'}, '<Space>', '<Nop>', {silent = true})
@@ -56,11 +57,12 @@ require('packer').startup(function(use)
 
     -- lsp
     use 'neovim/nvim-lspconfig'
-    use 'williamboman/nvim-lsp-installer'
+    use 'williamboman/mason.nvim'
+    use 'williamboman/mason-lspconfig.nvim'
+    use 'hrsh7th/cmp-nvim-lsp'
 
     -- cmp
     use 'hrsh7th/nvim-cmp'
-    use 'hrsh7th/cmp-nvim-lsp'
     use 'hrsh7th/cmp-buffer'
     use 'hrsh7th/cmp-path'
 
@@ -95,8 +97,13 @@ require('packer').startup(function(use)
     end
 end)
 
--- Lsp-installer config
-require("nvim-lsp-installer").setup {}
+-- Mason config
+require('mason').setup()
+require('mason-lspconfig').setup({
+    ensure_installed = {
+        'pyright',
+    }
+})
 
 -- Lsp config.
 local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
@@ -185,14 +192,14 @@ require('gitsigns').setup()
 -- Nightfox config
 require('nightfox').setup({
     options = {
-        transparent = true,
+        transparent = false,
         styles = {
             comments = 'italic',
             keywords = 'bold',
         }
     }
 })
-vim.cmd('colorscheme nordfox')
+vim.cmd('colorscheme nightfox')
 
 -- Autopairs config
 require('nvim-autopairs').setup {}

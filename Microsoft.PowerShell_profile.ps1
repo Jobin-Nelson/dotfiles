@@ -55,7 +55,11 @@ function pkill($name) {
 }
 
 function pgrep($name) {
-    Get-Process $name
+    Get-Process "*$name*"
+}
+
+function Get-Battery() {
+    Get-WmiObject win32_battery | Select-Object -Property EstimatedChargeRemaining
 }
 
 # Alias
