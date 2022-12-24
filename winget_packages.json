@@ -1,28 +1,40 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2022-05-03T19:01:34.561-00:00",
+	"CreationDate" : "2022-12-24T06:55:25.129-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
 				{
+					"PackageIdentifier" : "CoreyButler.NVMforWindows"
+				},
+				{
 					"PackageIdentifier" : "7zip.7zip"
 				},
 				{
-					"PackageIdentifier" : "BraveSoftware.BraveBrowser"
+					"PackageIdentifier" : "Brave.Brave"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge"
+					"PackageIdentifier" : "Canonical.Ubuntu"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
+					"PackageIdentifier" : "Discord.Discord"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
-				},
-				{
-					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
@@ -31,23 +43,41 @@
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VC++2015-2022Redist-x64"
+					"PackageIdentifier" : "Microsoft.Teams"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Obsidian.Obsidian"
+				},
+				{
+					"PackageIdentifier" : "Notion.Notion"
+				},
+				{
+					"PackageIdentifier" : "Google.Drive"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "VideoLAN.VLC"
+				},
+				{
+					"PackageIdentifier" : "Starship.Starship"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				}
 			],
 			"SourceDetails" : 
 			{
-				"Argument" : "https://winget.azureedge.net/cache",
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
 				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
 				"Name" : "winget",
 				"Type" : "Microsoft.PreIndexed.Package"
 			}
 		}
 	],
-	"WinGetVersion" : "1.2.10271"
+	"WinGetVersion" : "1.3.2691"
 }
