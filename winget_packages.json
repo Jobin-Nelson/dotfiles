@@ -16,12 +16,6 @@
 					"PackageIdentifier" : "Brave.Brave"
 				},
 				{
-					"PackageIdentifier" : "Canonical.Ubuntu"
-				},
-				{
-					"PackageIdentifier" : "Discord.Discord"
-				},
-				{
 					"PackageIdentifier" : "Docker.DockerDesktop"
 				},
 				{
@@ -37,22 +31,7 @@
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
-				},
-				{
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Teams"
-				},
-				{
-					"PackageIdentifier" : "Obsidian.Obsidian"
-				},
-				{
-					"PackageIdentifier" : "Notion.Notion"
-				},
-				{
-					"PackageIdentifier" : "Google.Drive"
 				},
 				{
 					"PackageIdentifier" : "Neovim.Neovim"
