@@ -22,14 +22,15 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+    "defaultProfile": "{b39ad6ba-2c97-4cd3-b589-34ea927355ca}",
     "experimental.rendering.software": false,
     "profiles": 
     {
         "defaults": 
         {
             "bellStyle": "none",
-            "opacity": 100
+            "opacity": 100,
+            "startingDirectory": "%USERPROFILE%"
         },
         "list": 
         [
@@ -53,16 +54,21 @@
             },
             {
                 "colorScheme": "Dracula",
+                "commandline": "C:\\Windows\\system32\\wsl.exe ~",
+                "cursorShape": "filledBox",
                 "font": 
                 {
                     "face": "Hack NF",
-                    "size": 11
+                    "size": 11,
+                    "weight": "medium"
                 },
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "guid": "{b39ad6ba-2c97-4cd3-b589-34ea927355ca}",
                 "hidden": false,
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "intenseTextStyle": "all",
                 "name": "Ubuntu",
                 "opacity": 90,
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+                "tabTitle": "Ubuntu"
             },
             {
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",

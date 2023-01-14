@@ -1,3 +1,10 @@
 [user]
 	name = Jobin Nelson
 	email = jobinnelson369@gmail.com
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+	required = true
+	clean = git-lfs clean -- %f
+[core]
+	autocrlf = false
