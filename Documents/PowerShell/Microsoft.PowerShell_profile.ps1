@@ -62,11 +62,14 @@ function Get-Battery() {
     Get-WmiObject win32_battery | Select-Object -Property EstimatedChargeRemaining
 }
 
+function dot() {
+    & git --git-dir=$HOME/.dotfiles --work-tree=$HOME $args
+}
+
 # Alias
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias vlc 'C:\Program Files\VideoLAN\VLC\vlc.exe'
 Set-Alias brave 'C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe'
-Set-Alias dot 'git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 # Modules
 Set-PSReadLineOption -PredictionSource History
