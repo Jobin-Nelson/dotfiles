@@ -1,5 +1,12 @@
 # DotFiles
 
+## Setup dotfiles
+```powershell
+git clone --bare git@github.com:jobin-nelson/dotfiles $HOME/.dotfiles
+git --git-dir=$HOME/.dotfiles --work-tree=$HOME checkout -f
+git --git-dir=$HOME/.dotfiles --work-tree=$HOME config status.showUntrackedFiles no
+```
+
 ## Install Nerd Fonts
 - https://www.nerdfonts.com/font-downloads
 
@@ -19,4 +26,3 @@
 	- `Set-ExecutionPolicy RemoteSigned`
 	- `cd ~\dotfiles`
 	- `install.ps1`
-

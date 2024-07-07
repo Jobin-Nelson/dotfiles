@@ -24,6 +24,12 @@
     "copyOnSelect": true,
     "defaultProfile": "{b39ad6ba-2c97-4cd3-b589-34ea927355ca}",
     "experimental.rendering.software": false,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -35,48 +41,12 @@
         "list": 
         [
             {
-                "bellStyle": "none",
-                "colorScheme": "Campbell",
-                "cursorShape": "filledBox",
-                "font": 
-                {
-                    "face": "JetBrainsMono NF",
-                    "size": 11,
-                    "weight": "medium"
-                },
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "intenseTextStyle": "all",
-                "name": "PowerShell",
-                "opacity": 90,
-                "scrollbarState": "hidden",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "colorScheme": "Dracula",
-                "commandline": "C:\\Windows\\system32\\wsl.exe ~",
-                "cursorShape": "filledBox",
-                "font": 
-                {
-                    "face": "Hack NF",
-                    "size": 11,
-                    "weight": "medium"
-                },
-                "guid": "{b39ad6ba-2c97-4cd3-b589-34ea927355ca}",
-                "hidden": false,
-                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
-                "intenseTextStyle": "all",
-                "name": "Ubuntu",
-                "opacity": 90,
-                "tabTitle": "Ubuntu"
-            },
-            {
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
                 "cursorShape": "filledBox",
                 "font": 
                 {
                     "face": "Hack NF",
-                    "size": 11
+                    "size": 11.0
                 },
                 "guid": "{b0eb2744-1514-44f0-affe-18ba952ac987}",
                 "hidden": false,
@@ -95,6 +65,42 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
+            },
+            {
+                "colorScheme": "Ubuntu-ColorScheme",
+                "commandline": "C:\\Windows\\system32\\wsl.exe ~",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "JetBrainsMono Nerd Font",
+                    "size": 10.0,
+                    "weight": "normal"
+                },
+                "guid": "{b39ad6ba-2c97-4cd3-b589-34ea927355ca}",
+                "hidden": false,
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "intenseTextStyle": "all",
+                "name": "Ubuntu",
+                "opacity": 90,
+                "tabTitle": "Ubuntu"
+            },
+            {
+                "bellStyle": "none",
+                "colorScheme": "Campbell",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "CaskaydiaCove Nerd Font",
+                    "size": 11.0,
+                    "weight": "medium"
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "intenseTextStyle": "all",
+                "name": "PowerShell",
+                "opacity": 90,
+                "scrollbarState": "hidden",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -382,5 +388,6 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "themes": []
 }
