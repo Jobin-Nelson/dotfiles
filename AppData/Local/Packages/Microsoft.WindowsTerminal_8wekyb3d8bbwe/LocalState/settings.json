@@ -18,6 +18,14 @@
         {
             "command": "unbound",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "keys": "ctrl+enter",
+            "command": { "action": "sendInput", "input": "\u001b[13;5u" }
+        },
+        {
+            "keys": "shift+enter",
+            "command": { "action": "sendInput", "input": "\u001b[13;2u" }
         }
     ],
     "copyFormatting": "none",
@@ -81,7 +89,7 @@
                 "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "intenseTextStyle": "all",
                 "name": "Ubuntu",
-                "opacity": 90,
+                "opacity": 95,
                 "tabTitle": "Ubuntu"
             },
             {
@@ -91,7 +99,7 @@
                 "font": 
                 {
                     "face": "CaskaydiaCove Nerd Font",
-                    "size": 11.0,
+                    "size": 10.0,
                     "weight": "medium"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",

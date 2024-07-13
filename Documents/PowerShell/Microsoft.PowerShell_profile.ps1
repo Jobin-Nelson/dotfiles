@@ -46,7 +46,7 @@ function sed($find, $replace, $file) {
     (Get-Content $file).replace($find, $replace) | Set-Content $file
 }
 
-function which ($command) {
+function which($command) {
 	Get-Command -Name $command -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
 
@@ -69,7 +69,7 @@ function dot() {
 # Alias
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 Set-Alias vlc 'C:\Program Files\VideoLAN\VLC\vlc.exe'
-Set-Alias brave 'C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe'
+Set-Alias ll Get-ChildItem
 
 # Modules
 Set-PSReadLineOption -PredictionSource History
