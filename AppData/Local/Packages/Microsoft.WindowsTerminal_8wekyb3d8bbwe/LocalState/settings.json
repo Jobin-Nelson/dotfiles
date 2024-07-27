@@ -20,12 +20,20 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "keys": "ctrl+enter",
-            "command": { "action": "sendInput", "input": "\u001b[13;5u" }
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b[13;5u"
+            },
+            "keys": "ctrl+enter"
         },
         {
-            "keys": "shift+enter",
-            "command": { "action": "sendInput", "input": "\u001b[13;2u" }
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b[13;2u"
+            },
+            "keys": "shift+enter"
         }
     ],
     "copyFormatting": "none",

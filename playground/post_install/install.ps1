@@ -1,6 +1,6 @@
 # Installing packages
 Write-Host "Installing Packages"
-winget import -i "$HOME\dotfiles\winget_packages.json"
+winget import -i "$HOME\playground\post_install\winget_packages.json"
 Write-Host "...done\n"
 
 # Installing PSModules

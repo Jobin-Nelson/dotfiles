@@ -46,6 +46,7 @@ vim.opt.formatoptions = vim.opt.formatoptions
   - "2" -- I'm not in gradeschool anymore
 vim.g.markdown_folding = 1
 vim.opt.pumheight = 10
+vim.opt.conceallevel = 2
 
 -- Set powershell as default shell
 -- vim.opt.shell = 'pwsh.exe'
