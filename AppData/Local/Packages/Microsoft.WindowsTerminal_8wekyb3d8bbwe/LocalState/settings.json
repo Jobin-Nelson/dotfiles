@@ -83,7 +83,7 @@
                 "name": "Windows PowerShell"
             },
             {
-                "colorScheme": "GruvboxDarkHard",
+                "colorScheme": "Ubuntu-ColorScheme",
                 "commandline": "C:\\Windows\\system32\\wsl.exe ~",
                 "cursorShape": "filledBox",
                 "font": 
@@ -97,7 +97,7 @@
                 "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
                 "intenseTextStyle": "all",
                 "name": "Ubuntu",
-                "opacity": 100,
+                "opacity": 95,
                 "tabTitle": "Ubuntu"
             },
             {
