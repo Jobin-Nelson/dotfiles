@@ -83,7 +83,8 @@
                 "name": "Windows PowerShell"
             },
             {
-                "colorScheme": "Ubuntu-ColorScheme",
+                "antialiasingMode": "grayscale",
+                "colorScheme": "mellow",
                 "commandline": "C:\\Windows\\system32\\wsl.exe ~",
                 "cursorShape": "filledBox",
                 "font": 
@@ -98,7 +99,8 @@
                 "intenseTextStyle": "all",
                 "name": "Ubuntu",
                 "opacity": 95,
-                "tabTitle": "Ubuntu"
+                "tabTitle": "Ubuntu",
+                "useAtlasEngine": true
             },
             {
                 "bellStyle": "none",
@@ -175,6 +177,29 @@
             "yellow": "#C19C00"
         },
         {
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#13A10E",
+            "name": "Color Scheme 15",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
             "background": "#282A36",
             "black": "#21222C",
             "blue": "#BD93F9",
@@ -242,6 +267,29 @@
             "selectionBackground": "#665C54",
             "white": "#A89984",
             "yellow": "#D79921"
+        },
+        {
+            "background": "#1A1A1A",
+            "black": "#1A1A1A",
+            "blue": "#A8A1BE",
+            "brightBlack": "#5B5B5B",
+            "brightBlue": "#5A6599",
+            "brightCyan": "#74A39E",
+            "brightGreen": "#828040",
+            "brightPurple": "#9C6995",
+            "brightRed": "#C95954",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#A6794C",
+            "cursorColor": "#BFAD9E",
+            "cyan": "#C0AF8C",
+            "foreground": "#DADADA",
+            "green": "#B3B393",
+            "name": "Mellifluous",
+            "purple": "#B39FB0",
+            "red": "#D29393",
+            "selectionBackground": "#2D2D2D",
+            "white": "#DADADA",
+            "yellow": "#CBAA89"
         },
         {
             "background": "#282C34",
@@ -449,6 +497,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#161617",
+            "black": "#27272A",
+            "blue": "#ACA1CF",
+            "brightBlack": "#353539",
+            "brightBlue": "#B9AEDA",
+            "brightCyan": "#F591B2",
+            "brightGreen": "#9DC6AC",
+            "brightPurple": "#ECAAD6",
+            "brightRed": "#FFAE9F",
+            "brightWhite": "#CAC9DD",
+            "brightYellow": "#F0C5A9",
+            "cursorColor": "#E3E2E5",
+            "cyan": "#EA83A5",
+            "foreground": "#C9C7CD",
+            "green": "#90B99F",
+            "name": "mellow",
+            "purple": "#E29ECA",
+            "red": "#F5A191",
+            "selectionBackground": "#3C3B3E",
+            "white": "#C1C0D4",
+            "yellow": "#E6B99D"
         }
     ],
     "themes": []
